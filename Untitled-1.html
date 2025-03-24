@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Majlis Tahlil</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('bismillah.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Event Details) */
+.bgimg-2 {
+  background-image: url('20240410_215843.jpg');
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- First Container (Majlis Tahlil) -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MAJLIS TAHLIL DAN DOA SELAMAT</span>
+  </div>
+</div>
+
+<!-- Container (Event Details) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Detail Majlis</h3>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <i class="fa fa-calendar fa-4x"></i>
+      <p><b>Date:</b><br>Friday, March 28, 2025</p>
+    </div>
+
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <i class="fa fa-clock-o fa-4x"></i>
+      <p><b>Time:</b><br>5:00 PM - 10:00 PM</p>
+    </div>
+  </div>
+  
+  <div class="w3-row w3-center w3-padding-32">
+    <div class="w3-col m12 w3-center">
+      <i class="fa fa-map-marker fa-4x"></i>
+      <p><b>Address:</b><br>No 6 Spg 522<br>Kg Masin, Brunei Darussalam</p>
+    </div>
+  </div>
+</div>
+
+<!-- Second Parallax Image with Event Details Text -->
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">DIPERSILAKAN DATANG</span>
+  </div>
+</div>
+
+<!-- Container (Location Section) -->
+<div class="w3-content w3-container w3-padding-64" id="location">
+  <h3 class="w3-center">LOCATION</h3>
+  <div class="w3-row-padding w3-center">
+    <!-- Google Maps Embed -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d668.9306793991412!2d114.84338827540496!3d4.842800127690563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbn!4v1742825312631!5m2!1sen!2sbn" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
